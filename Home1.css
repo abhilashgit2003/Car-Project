@@ -368,7 +368,7 @@ label{
 }
 
 .content4{
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     height: 100vh;
     display: flex;
 }
@@ -409,7 +409,7 @@ label{
 }
 
 .c42box{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -427,8 +427,78 @@ label{
 
 .c42options{
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 100px;
-height: 60%;
-box-sizing: border-box;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 2px;
 }
+
+.suzuki-logo{
+    height: 120px;
+    width: 145px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toyota-logo{
+    height: 120px;
+    width: 145px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mahindra-logo{
+    height: 120px;
+    width: 145px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hyundai-logo{
+    height: 120px;
+    width: 145px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: -20px; */
+}
+
+.honda-logo{
+    height: 120px;
+    width: 140px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:15px;
+}
+
+.line{
+    border: 1px solid rgb(177, 167, 167);
+    height: 80px;
+    margin-top: 20px;
+}
+
+.c4boxbutton{
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 32px;
+}
+
