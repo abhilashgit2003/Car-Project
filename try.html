@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0px;
+    }
+   .content3{
+      border: 2px solid black;
+      background-color: azure;
+      height: 100px;
+      width: 100px;
+    }
+    .content4{
+      border: 2px solid black;
+      background-color:blueviolet;
+      height: 100px;
+      width: 100px;
+  
+    }
+    .mian{
+      border: 2px solid black;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+
+
+
+
+   .rental-data{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+   }
+   .rental-div{
+    height: 100px;
+    width: 200px;
+   }
+
+  </style>
+</head>
+<body>
+  <form action="" class="mian">
+    <div class="content3">
+<label for="pickup">Pickup Location</label>
+                <input type="text" name="pickup" placeholder="Location" id="pickup">
+  </div>
+  <div class="content4">
+    <label for="drop">Drop Location</label>
+                <input type="text" name="drop"  placeholder="Location" id="drop">
+  </div>
+  <div class="content4">
+    <label for="date">Pickup Date</label>
+                <input type="date" name="date" placeholder="" id="date">
+  </div>
+  <div class="content4">
+    <label for="time">Pickup Time</label>
+                <input type="time" name="time" id="time">
+  </div>
+  <div class="content4">
+    <label for="pickup">Return Date</label>
+                <input type="date" name="ddate" id="ddate">
+  </div>
+  <div class="content4">
+    <label for="pickup">Return Time</label>
+                <input type="time" name="dtime" id="dtime">
+  </div>
+  <div class="content4">
+     <button class="search-i"> <i class="bi bi-search"></i> Search</button>
+  </div>
+  
+  
+
+  </form>
+  <form action="" class="rental-data">
+            <div class="rental-div">
+                <label for="pickup">Pickup Location</label>
+                <input type="text" name="pickup" placeholder="Location" id="pickup">
+            </div>
+            <div class="rental-div" >
+                <label for="drop">Drop Location</label>
+                <input type="text" name="drop"  placeholder="Location" id="drop">
+            </div>
+            <div class="rental-div">
+                <label for="date">Pickup Date</label>
+                <input type="date" name="date" placeholder="" id="date">
+            </div>
+            <div class="rental-div">
+                <label for="time">Pickup Time</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <div class="rental-div">
+                <label for="pickup">Return Date</label>
+                <input type="date" name="ddate" id="ddate">
+            </div>
+            <div class="rental-div">
+                <label for="pickup">Return Time</label>
+                <input type="time" name="dtime" id="dtime">
+            </div>
+            <div class="search">
+                
+                <button class="search-i"> <i class="bi bi-search"></i> Search</button>
+            </div>
+
+    </form>
+    
+  
+  
+</body>
+</html>
