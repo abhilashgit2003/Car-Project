@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -110,5 +110,29 @@
     
   
   
+</body>
+</html> -->
+
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Hover Color Change</title>
+  <style>
+    .logo {
+      width: 200px;
+      filter: brightness(4); /* Make it lighter (simulate grey) */
+      transition: filter 0.4s ease;
+    }
+
+    .logo:hover {
+      filter: brightness(0); /* On hover, become fully black */
+    }
+  </style>
+</head>
+<body>
+
+  <img src="images/toyota-logo-2020-europe-640.png" alt="Toyota Logo" class="logo" />
+
 </body>
 </html>
